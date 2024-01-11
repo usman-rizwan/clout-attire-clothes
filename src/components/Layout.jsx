@@ -3,7 +3,7 @@ import "mdb-react-ui-kit/dist/css/mdb.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import LOGO from "../assets/images/logo.jpg";
 
-const MyPage = () => {
+const Layout = () => {
   return (
     <div className="container mt-5">
       <div className="row">
@@ -39,4 +39,4 @@ const MyPage = () => {
   );
 };
 
-export default MyPage;
+export default Layout;

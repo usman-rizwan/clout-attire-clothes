@@ -5,10 +5,10 @@ import { MDBContainer, MDBNavbar, MDBNavbarBrand } from "mdb-react-ui-kit";
 import LOGO from "../assets/images/logo-removebg-.png";
 import './style.css'
 
-export default function App() {
+export default function Navbar() {
   return (
     <>
-      <MDBNavbar light bgColor="dark" className="fixed-top nav-color">
+      <MDBNavbar light bgColor="dark" className="fixed-top black-color">
         <MDBContainer fluid>
           <MDBNavbarBrand href="#">
             <div className="d-flex justify-content-center">
