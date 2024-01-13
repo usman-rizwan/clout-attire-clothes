@@ -5,7 +5,7 @@ import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
 
 export default function Carousel() {
   return (
-    <div className="m-5">
+    <div className="m-2 mt-5">
       <MDBCarousel showControls>
         <MDBCarouselItem itemId={1}>
           <img

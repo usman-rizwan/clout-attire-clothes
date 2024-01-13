@@ -1,3 +1,4 @@
+import "./style.css";
 import React from 'react';
 import { Image, Space } from 'antd';
 import {
@@ -10,8 +11,10 @@ import {
 } from '@ant-design/icons';
 
 const images = [
-
-  // Add more image URLs as needed
+  'https://mdbootstrap.com/img/new/slides/043.jpg',
+  'https://mdbootstrap.com/img/new/slides/043.jpg',
+  'https://mdbootstrap.com/img/new/slides/043.jpg',
+  
 ];
 
 const Product = () => {
@@ -31,21 +34,15 @@ const Product = () => {
   };
 
   return (
-    <div
-      style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
-        gap: '20px',
-        margin: '20px auto',
-        maxWidth: '800px',
-      }}
-    >
+    <div className="product-container">
       {images.map((src, index) => (
-        <div key={index}>
+        <div key={index} className="image-container">
           <Image
-            width={500}  // Set the width to 500px
+            width={500} // Set the width to 500px
             src={src}
             preview={{
+              mask: <div className="custom-mask" />, 
+              maskClassName: 'custom-mask-class', 
               toolbarRender: (
                 _,
                 {

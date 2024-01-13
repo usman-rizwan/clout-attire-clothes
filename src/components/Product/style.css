@@ -1,0 +1,28 @@
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    overflow-x: hidden;
+  }
+  
+  .image-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .custom-mask {
+    background-color: rgba(0, 0, 0, 0.8); 
+  }
+  
+  .custom-mask-class {
+    top: 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .product-container {
+      grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+  }
+  

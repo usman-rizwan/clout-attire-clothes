@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar.jsx";
 import Carousel from "./components/Carousel.jsx";
 import Layout from "./components/Layout.jsx";
 import Text from "./components/Text.jsx";
-import Product from "./components/Product.jsx";
+import Product from "./components/Product/Product.jsx";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
