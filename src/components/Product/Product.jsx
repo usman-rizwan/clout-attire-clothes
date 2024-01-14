@@ -1,4 +1,4 @@
-import "./style.css";
+
 import React from 'react';
 import { Image, Space } from 'antd';
 import {
@@ -9,11 +9,15 @@ import {
   ZoomInOutlined,
   ZoomOutOutlined,
 } from '@ant-design/icons';
-
+import Product4 from "../../assets/images/product4.jpg"
+import Product6 from "../../assets/images/product6.jpg"
+import Product7 from "../../assets/images/product7.jpg"
+import "./style.css";
 const images = [
-  'https://mdbootstrap.com/img/new/slides/043.jpg',
-  'https://mdbootstrap.com/img/new/slides/043.jpg',
-  'https://mdbootstrap.com/img/new/slides/043.jpg',
+ Product4,
+  Product6,
+  Product7,
+
   
 ];
 
@@ -38,7 +42,8 @@ const Product = () => {
       {images.map((src, index) => (
         <div key={index} className="image-container">
           <Image
-            width={500} // Set the width to 500px
+            width={300} // Set the width to 500px
+           
             src={src}
             preview={{
               mask: <div className="custom-mask" />, 

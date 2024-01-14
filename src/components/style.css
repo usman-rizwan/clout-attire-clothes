@@ -4,5 +4,21 @@
 
 .mt-cs{
     margin-top: 180px !important;
-    margin-bottom: 180px !important;
+    margin-bottom: 100px !important;
 }
+.custom-indent {
+    text-indent: 20px; /* Adjust the value as needed */
+  }
+  .link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+  .my-div{
+padding: 100px;
+  }
+  @media screen and (max-width: 608px) {
+    .my-div{
+        padding: 50px;
+          }
+  }

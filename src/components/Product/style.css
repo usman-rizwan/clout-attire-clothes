@@ -20,7 +20,7 @@
     top: 0;
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 608px) {
     .product-container {
       grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
     }
