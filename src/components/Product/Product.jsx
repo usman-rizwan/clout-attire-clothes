@@ -1,5 +1,7 @@
 
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { Image, Space } from 'antd';
 import {
   DownloadOutlined,
@@ -17,8 +19,6 @@ const images = [
  Product4,
   Product6,
   Product7,
-
-  
 ];
 
 const Product = () => {
@@ -36,11 +36,15 @@ const Product = () => {
         link.remove();
       });
   };
-
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); // Initialize AOS with a default duration of 1000ms
+    AOS.refresh(); // Refresh AOS when the component mounts
+  }, []);
   return (
+    
     <div className="product-container">
       {images.map((src, index) => (
-        <div key={index} className="image-container">
+        <div key={index} className="image-container" data-aos="fade-left">
           <Image
             width={300} // Set the width to 500px
            
