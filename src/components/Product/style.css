@@ -1,4 +1,12 @@
-.product-container {
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/Fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../assets/Fonts/Outfit-Regular.ttf");
+}.product-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
@@ -18,6 +26,12 @@
   
   .custom-mask-class {
     top: 0;
+  }
+  .poppins{
+    font-family: "Poppins";
+  }
+  .outfit{
+    font-family: "Outfit";
   }
   
   @media screen and (max-width: 608px) {

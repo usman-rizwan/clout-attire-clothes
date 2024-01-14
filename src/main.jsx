@@ -18,7 +18,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Carousel />
       <Text  title="// fine print" content="Limited edition seasonal collections embracing the current culture. Locally sourced with an obsessive attention to fit, fabric and  fabrication." />
       <Product/>
-      <Text  title="// Have A Query" content="We are available through whatsapp and instagram. " contactDetails="Message on Instagram" bgColor="gray" >   </Text>
+      <Text  title="// Have A Query" content="We are available through whatsapp and instagram. " contactDetails="Message on Whatsapp" bgColor="gray" >   </Text>
       <Gallery />
     </div>
   </React.StrictMode>

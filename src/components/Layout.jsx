@@ -2,6 +2,7 @@ import React from "react";
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import LOGO from "../assets/images/logo.jpg";
+import "./style.css"
 
 const Layout = () => {
   return (
@@ -9,15 +10,15 @@ const Layout = () => {
       <div className="row">
         <div className="col-md-6">
           <div className="p-4 mt-5">
-            <span style={{ color: "#b8b2fa", fontSize: 50 }}>CLOUT ATTIRE</span>
-            <p>
+            <span style={{ color: "#b8b2fa", fontSize: 50 }} className="poppins">CLOUT ATTIRE</span>
+            <p className="outfit">
               Crafted for Comfort, Styled for Confidence – Elevate Your
               Everyday with Clout. Our Hoodies and T-Shirts blend premium
               quality with effortless cool, ensuring you stand out with every
               wear. Unleash your unique style and embrace the ultimate in
               comfort and fashion. Clout – Where Comfort Meets Chic.
             </p>
-            <b className="text-white info">
+            <b className="text-white info outfit">
               "Discover the extensive range of products from <span style={{ color: "#b8b2fa"}}> CLOUT </span>, as our
               website showcases the entire collection for your browsing
               pleasure."

@@ -41,8 +41,14 @@ const Product = () => {
     AOS.refresh(); // Refresh AOS when the component mounts
   }, []);
   return (
+    <>
+    <div className="d-flex justify-content-center items-center">
+        <h1 className="poppins"style={{color:"#c3b5f3" ,fontSize:"40px" }}><span style={{fontSize:"30px"}}>//</span> Popular</h1>
+      </div>
+    
     
     <div className="product-container">
+      
       {images.map((src, index) => (
         <div key={index} className="image-container" data-aos="fade-left">
           <Image
@@ -74,6 +80,7 @@ const Product = () => {
         </div>
       ))}
     </div>
+    </>
   );
 };
 

@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../assets/Fonts/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: "Outfit";
+    src: url("../assets/Fonts/Outfit-Regular.ttf");
+}
 .black-color{
     background-color: black !important;
 }
@@ -13,6 +21,12 @@
     text-decoration: none;
     color: white;
     font-size: 20px;
+  }
+  .poppins{
+    font-family: "Poppins";
+  }
+  .outfit{
+    font-family: "Outfit";
   }
   .my-div{
 padding: 100px;

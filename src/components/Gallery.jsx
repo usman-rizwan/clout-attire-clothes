@@ -8,6 +8,7 @@ import Product3 from "../assets/images/product3.jpg";
 import Product5 from "../assets/images/product5.jpg";
 import Product8 from "../assets/images/product8.jpg";
 import Product9 from "../assets/images/product9.jpg";
+import "./style.css"
 
 export default function Gallery() {
   useEffect(() => {
@@ -18,7 +19,7 @@ export default function Gallery() {
   return (
     <div className="container">
       <div className="d-flex justify-content-center items-center">
-        <h1 style={{color:"#c3b5f3"}}>Clout Gallery</h1>
+        <h1 className="poppins"style={{color:"#c3b5f3" ,fontSize:"40px" }}><span>//</span> Clout Gallery</h1>
       </div>
       <MDBRow>
         <MDBCol lg={4} md={12} className="mb-4 mb-lg-0">
