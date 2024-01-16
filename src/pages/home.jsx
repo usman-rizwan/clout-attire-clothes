@@ -10,7 +10,6 @@ import "./style.css";
  function HomePage(){
     return(
 <>
-<h1>saasdads</h1>
 <Navbar />
 <Layout />
 <div className=" mt-2">
