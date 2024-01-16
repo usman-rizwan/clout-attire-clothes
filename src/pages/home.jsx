@@ -8,6 +8,7 @@ import Product from "../components/Product/Product.jsx";
 import FloatBtn from "../components/FloatBtn.jsx";
 import "./style.css";
 import QRCodeScan from "../components/QrCode.jsx";
+import Footer from "../components/Footer.jsx";
 
 function HomePage() {
   return (
@@ -36,6 +37,7 @@ function HomePage() {
           content={<QRCodeScan/>}
           bgColor="gray"
         ></Text>
+        <Footer/>
     </>
   );
 }

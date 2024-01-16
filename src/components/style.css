@@ -9,6 +9,9 @@
 .black-color {
   background-color: black !important;
 }
+.bg-dark{
+  background-color: rgb(18, 17, 17) !important;
+}
 
 .mt-cs {
   margin-top: 180px !important;
