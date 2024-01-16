@@ -12,7 +12,7 @@ import './style.css';
 
 export default function Footer() {
   return (
-    <MDBFooter className=' text-center text-white bg-dark '>
+    <MDBFooter className=' text-center text-white bg-darks '>
       <MDBContainer className='p-4 pb-0'>
         <section className='mb-4'>
           <MDBBtn outline color="light" floating className='m-1' href='https://www.instagram.com/direct/t/17845817354991430' target='_blank' role='button'>
