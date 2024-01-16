@@ -4,7 +4,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Image, Space } from 'antd';
 import {
-  DownloadOutlined,
   RotateLeftOutlined,
   RotateRightOutlined,
   SwapOutlined,
@@ -12,30 +11,17 @@ import {
   ZoomOutOutlined,
 } from '@ant-design/icons';
 import Product4 from "../../assets/images/product4.jpg"
-import Product6 from "../../assets/images/product6.jpg"
-import Product7 from "../../assets/images/product7.jpg"
+import Product5 from "../../assets/images/product5.jpg"
+import Product1 from "../../assets/images/product1.jpg"
 import "./style.css";
 const images = [
  Product4,
-  Product6,
-  Product7,
+  Product5,
+  Product1,
 ];
 
 const Product = () => {
-  const onDownload = (imageSrc) => {
-    fetch(imageSrc)
-      .then((response) => response.blob())
-      .then((blob) => {
-        const url = URL.createObjectURL(new Blob([blob]));
-        const link = document.createElement('a');
-        link.href = url;
-        link.download = 'image.png';
-        document.body.appendChild(link);
-        link.click();
-        URL.revokeObjectURL(url);
-        link.remove();
-      });
-  };
+
   useEffect(() => {
     AOS.init({ duration: 1000 }); // Initialize AOS with a default duration of 1000ms
     AOS.refresh(); // Refresh AOS when the component mounts
@@ -52,7 +38,7 @@ const Product = () => {
       {images.map((src, index) => (
         <div key={index} className="image-container" data-aos="fade-left">
           <Image
-            width={300} // Set the width to 500px
+            width={300} 
            
             src={src}
             preview={{
@@ -65,8 +51,8 @@ const Product = () => {
                   actions: { onFlipY, onFlipX, onRotateLeft, onRotateRight, onZoomOut, onZoomIn },
                 },
               ) => (
-                <Space size={12} className="toolbar-wrapper">
-                  <DownloadOutlined onClick={() => onDownload(src)} />
+                <Space size={15} className="toolbar-wrapper">
+                
                   <SwapOutlined rotate={90} onClick={onFlipY} />
                   <SwapOutlined onClick={onFlipX} />
                   <RotateLeftOutlined onClick={onRotateLeft} />

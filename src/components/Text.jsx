@@ -29,7 +29,7 @@ export default function Text({
         style={{ width: "125px", height: "6px", backgroundColor: "#00b490" }}
       ></div>
       <div className="d-flex justify-content-center items-center">
-        <h1 className="display-4 fw-bold"> {title}</h1>
+        <h1 className="display-4 fw-bold user-select-none"> {title}</h1>
       </div>
       <div className="d-flex justify-content-center items-center">
         <p className="lead .custom-indent">{content}</p>

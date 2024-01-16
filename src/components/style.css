@@ -1,45 +1,53 @@
 @font-face {
-    font-family: "Poppins";
-    src: url("../assets/Fonts/Poppins-Regular.ttf");
+  font-family: "Poppins";
+  src: url("../assets/Fonts/Poppins-Regular.ttf");
 }
 @font-face {
-    font-family: "Outfit";
-    src: url("../assets/Fonts/Outfit-Regular.ttf");
+  font-family: "Outfit";
+  src: url("../assets/Fonts/Outfit-Regular.ttf");
 }
-.black-color{
-    background-color: black !important;
+.black-color {
+  background-color: black !important;
 }
 
-.mt-cs{
-    margin-top: 180px !important;
-    margin-bottom: 100px !important;
+.mt-cs {
+  margin-top: 180px !important;
+  margin-bottom: 100px !important;
 }
 .custom-indent {
-    text-indent: 20px; /* Adjust the value as needed */
+  text-indent: 20px; /* Adjust the value as needed */
+}
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.poppins {
+  font-family: "Poppins";
+}
+.outfit {
+  font-family: "Outfit";
+}
+.insta {
+  color: pink;
+}
+.my-div {
+  padding: 100px;
+}
+.result-not {
+  background-color: white !important;
+  color: black !important;
+}
+.pointer{
+  cursor: pointer ;
+}
+
+a:hover {
+  color: white;
+}
+
+@media screen and (max-width: 608px) {
+  .my-div {
+    padding: 50px;
   }
-  .link{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-  }
-  .poppins{
-    font-family: "Poppins";
-  }
-  .outfit{
-    font-family: "Outfit";
-  }
-  .insta{
-    color: pink ;
-  }
-  .my-div{
-padding: 100px;
-  }
-  a:hover{
-   
-    color: white;
-  }
-  @media screen and (max-width: 608px) {
-    .my-div{
-        padding: 50px;
-          }
-  }
+}
