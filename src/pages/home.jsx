@@ -7,7 +7,7 @@ import Gallery from "../components/Gallery.jsx";
 import Product from "../components/Product/Product.jsx";
 import FloatBtn from "../components/FloatBtn.jsx";
 import "./style.css";
-
+import QRCodeScan from "../components/QrCode.jsx";
 
 function HomePage() {
   return (
@@ -31,7 +31,11 @@ function HomePage() {
         <Gallery />
       </div>
       <FloatBtn />
-     
+      <Text
+          title="// Scan Qr Code "
+          content={<QRCodeScan/>}
+          bgColor="gray"
+        ></Text>
     </>
   );
 }
