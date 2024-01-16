@@ -10,16 +10,14 @@ export default function Navbar() {
     <>
       <MDBNavbar light bgColor="dark" className="fixed-top black-color">
         <MDBContainer fluid>
-          <MDBNavbarBrand href="#">
-            <div className="d-flex justify-content-center">
-              <img
-                src={LOGO}
-                height="50"
-                alt="clout-logo"
-                loading="lazy"
-                className=""
-              />
-            </div>
+          <MDBNavbarBrand href="#" className="mx-auto">
+            <img
+              src={LOGO}
+              height="50"
+              alt="clout-logo"
+              loading="lazy"
+              className=""
+            />
           </MDBNavbarBrand>
         </MDBContainer>
       </MDBNavbar>

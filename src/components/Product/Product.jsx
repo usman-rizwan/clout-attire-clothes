@@ -43,7 +43,7 @@ const Product = () => {
   return (
     <>
     <div className="d-flex justify-content-center items-center">
-        <h1 className="poppins"style={{color:"#c3b5f3" ,fontSize:"40px" }}><span style={{fontSize:"30px"}}>//</span> Popular</h1>
+        <h1 className="poppins"style={{fontSize:"40px" }}><span style={{fontSize:"30px",fontStyle:"italic" }} className="poppins fw-bold">//</span> Popular</h1>
       </div>
     
     
