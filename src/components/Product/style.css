@@ -41,7 +41,9 @@
   justify-content: center;
   align-items: center;
 }
-
+.custom-mask {
+  background: transparent !important;
+}
 
 @media screen and (max-width: 608px) {
   .product-container {

@@ -2,7 +2,8 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { Image, Space } from 'antd';
+import { Image, Space   } from 'antd';
+import {EyeOutlined } from '@ant-design/icons'
 import {
   RotateLeftOutlined,
   RotateRightOutlined,
@@ -43,7 +44,7 @@ const Product = () => {
            
             src={src}
             preview={{
-              mask: <div className="custom-mask" />, 
+              mask: <div className="custom-mask " > <EyeOutlined /> Preview</div>, 
               maskClassName: 'custom-mask-class', 
               toolbarRender: (
                 _,
