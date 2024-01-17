@@ -35,9 +35,9 @@ export default function Text({
         <p className="lead .custom-indent text-center poppins">{content}</p>
       </div>
       <div className="d-flex flex-column justify-content-center align-items-center">
-        <span className="custom-indent">
+        <span className="custom-indent text-center">
           <a
-            className="link outfit"
+            className="link outfit text-center"
             target="_blank"
             href={instagramLink}
             onClick={handleSocialClick}
@@ -48,7 +48,7 @@ export default function Text({
 
         <span className="custom-indent">
           <a
-            className="link outfit"
+            className="link outfit text-center"
             target="_blank"
             href={whatsappChatLink}
             onClick={handleSocialClick}

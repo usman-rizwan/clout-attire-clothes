@@ -28,6 +28,7 @@ const Product = () => {
   }, []);
   return (
     <>
+    <Image.PreviewGroup >
     <div className="d-flex justify-content-center items-center">
         <h1 className="poppins"style={{fontSize:"40px" }}><span style={{fontSize:"30px",fontStyle:"italic" }} className="poppins fw-bold">//</span> Popular</h1>
       </div>
@@ -66,6 +67,7 @@ const Product = () => {
         </div>
       ))}
     </div>
+    </Image.PreviewGroup>
     </>
   );
 };
