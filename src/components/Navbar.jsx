@@ -8,7 +8,7 @@ import './style.css'
 export default function Navbar() {
   return (
     <>
-      <MDBNavbar light bgColor="dark" className="fixed-top black-color">
+      <MDBNavbar light bgColor="dark" className="fixed-top black-color" >
         <MDBContainer fluid>
           <MDBNavbarBrand href="#" className="mx-auto">
             <img

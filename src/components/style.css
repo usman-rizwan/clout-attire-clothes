@@ -49,6 +49,7 @@ a:hover {
   color: white;
 }
 
+
 @media screen and (max-width: 608px) {
   .my-div {
     padding: 50px;

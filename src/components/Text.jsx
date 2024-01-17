@@ -29,15 +29,15 @@ export default function Text({
         style={{ width: "125px", height: "6px", backgroundColor: "#00b490" }}
       ></div>
       <div className="d-flex justify-content-center items-center">
-        <h1 className="display-4 fw-bold user-select-none"> {title}</h1>
+        <h1 className="display-5 fw-bold user-select-none outfit"> {title}</h1>
       </div>
       <div className="d-flex justify-content-center items-center">
-        <p className="lead .custom-indent">{content}</p>
+        <p className="lead .custom-indent text-center poppins">{content}</p>
       </div>
       <div className="d-flex flex-column justify-content-center align-items-center">
         <span className="custom-indent">
           <a
-            className="link"
+            className="link outfit"
             target="_blank"
             href={instagramLink}
             onClick={handleSocialClick}
@@ -48,7 +48,7 @@ export default function Text({
 
         <span className="custom-indent">
           <a
-            className="link"
+            className="link outfit"
             target="_blank"
             href={whatsappChatLink}
             onClick={handleSocialClick}

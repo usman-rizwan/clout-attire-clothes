@@ -33,7 +33,7 @@ function HomePage() {
       </div>
       <FloatBtn />
       <Text
-          title="// Scan Qr Code "
+          title="// Scan Qr Code  "
           content={<QRCodeScan/>}
           bgColor="gray"
         ></Text>

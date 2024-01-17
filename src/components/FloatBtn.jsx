@@ -21,7 +21,7 @@ const handleWhatsappClick = () => {
 const FloatBtn = () => (
   <>
     <FloatButton.Group
-      trigger="hover"
+      trigger="click"
       type="success"
       style={{ right: 24}}
       icon={<MessageOutlined />}

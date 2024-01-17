@@ -5,12 +5,15 @@ import "mdb-react-ui-kit/dist/css/mdb.min.css";
 const QRCodeScan = () => {
   return (
     <>
-      
+      <span className='poppins'>Ready to join clout community?</span>
+      <div className='d-flex justify-content-center items-center'>
+
       <QRCode
     errorLevel="H"
-    value="https://instagram.com/clout.attire"
+    value="https://chat.whatsapp.com/LPpwtht8hiuDGb5RSyPOQm"
     icon={Logo}
   />
+  </div>
     </>
   );
 };
