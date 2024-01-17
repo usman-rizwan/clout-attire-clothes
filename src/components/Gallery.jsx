@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { MDBContainer, MDBCol, MDBRow } from "mdb-react-ui-kit";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "mdb-react-ui-kit/dist/css/mdb.min.css";
 import Product1 from "../assets/images/product1.jpg";
 import Product2 from "../assets/images/product2.jpg";
 import Product3 from "../assets/images/product3.jpg";
@@ -25,8 +26,8 @@ export default function Gallery() {
   return (
     <div className="container  ">
       <div className="d-flex justify-content-center items-center">
-        <h1 className="poppins" style={{ fontSize: "40px" }}>
-          <span style={{ fontSize: "30px", fontStyle: "italic" }} className="poppins fw-bold">//</span>{" "}
+        <h1 className="poppins text-center" style={{ fontSize: "40px" }}>
+          <span style={{ fontSize: "30px", fontStyle: "italic" }} className="poppins fw-bold text-center">//</span>{" "}
           Clout Gallery
         </h1>
       </div>

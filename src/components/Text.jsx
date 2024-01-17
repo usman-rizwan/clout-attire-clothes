@@ -28,8 +28,8 @@ export default function Text({
         className="mx-auto animate__animated animate__rotateIn mb-4"
         style={{ width: "125px", height: "6px", backgroundColor: "#00b490" }}
       ></div>
-      <div className="d-flex justify-content-center items-center">
-        <h1 className="display-5 fw-bold user-select-none outfit"> {title}</h1>
+      <div className="d-flex justify-content-center items-center text-center">
+        <h1 className="display-5 fw-bold user-select-none outfit text-center"> {title}</h1>
       </div>
       <div className="d-flex justify-content-center items-center">
         <p className="lead .custom-indent text-center poppins">{content}</p>
@@ -46,7 +46,7 @@ export default function Text({
           </a>
         </span>
 
-        <span className="custom-indent">
+        <span className="custom-indent text-center">
           <a
             className="link outfit text-center"
             target="_blank"
