@@ -14,9 +14,12 @@ export default function Text({
   const whatsappChatLink =
    "https://api.whatsapp.com/send/?phone=923182952936&text=I+am+interested+in+your+products+please+send+me+products+details+thanks+&type=phone_number&app_absent=0";
 
-  const handleSocialClick = () => {
+  const handleInstaClick = () => {
     window.location.href = instagramLink;
+  };
+  const handleWhatsappClick = () => {
     window.location.href = whatsappChatLink;
+
   };
 
   return (
@@ -40,7 +43,7 @@ export default function Text({
             className="link outfit text-center"
             target="_blank"
             href={instagramLink}
-            onClick={handleSocialClick}
+            onClick={handleInstaClick}
           >
            {instaDetail}
           </a>
@@ -51,7 +54,7 @@ export default function Text({
             className="link outfit text-center"
             target="_blank"
             href={whatsappChatLink}
-            onClick={handleSocialClick}
+            onClick={handleWhatsappClick}
           >
          {contactDetails} 
           </a>
