@@ -44,6 +44,9 @@
 .custom-mask {
   background: transparent !important;
 }
+.overflow{
+  overflow: hidden;
+}
 
 @media screen and (max-width: 608px) {
   .product-container {

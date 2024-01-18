@@ -10,7 +10,7 @@ const Layout = () => {
       <div className="row">
         <div className="col-md-6">
           <div className="p-4 mt-5">
-            <span style={{ color: "#b8b2fa", fontSize: 50 }} className="poppins">CLOUT ATTIRE</span>
+            <span style={{ color: "#b8b2fa", fontSize: 50 }} className="outfit">CLOUT ATTIRE</span>
             <p className="outfit">
               Crafted for Comfort, Styled for Confidence – Elevate Your
               Everyday with Clout. Our Hoodies and T-Shirts blend premium

@@ -24,7 +24,7 @@ export default function Gallery() {
   };
 
   return (
-    <div className="container  ">
+    <div className="container overflow-hidden">
       <div className="d-flex justify-content-center items-center">
         <h1 className="poppins text-center" style={{ fontSize: "40px" }}>
           <span style={{ fontSize: "30px", fontStyle: "italic" }} className="poppins fw-bold text-center">//</span>{" "}
