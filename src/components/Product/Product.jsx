@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { Image, Space   } from 'antd';
+import { Image, Space    } from 'antd';
 import {EyeOutlined } from '@ant-design/icons'
 import {
   RotateLeftOutlined,
@@ -35,7 +35,7 @@ const Product = () => {
       </div>
     
     
-    <div className="product-container">
+     <div className="product-container">
       
       {images.map((src, index) => (
         <div key={index} className="image-container" data-aos="fade-left">

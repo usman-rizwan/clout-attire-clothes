@@ -13,7 +13,7 @@ import "./style.css";
 
 export default function Gallery() {
   useEffect(() => {
-    AOS.init({ duration: 1000 }); // Initialize AOS with a default duration of 1000ms
+    AOS.init({ duration: 1000  }); // Initialize AOS with a default duration of 1000ms
     AOS.refresh(); // Refresh AOS when the component mounts
   }, []);
 
