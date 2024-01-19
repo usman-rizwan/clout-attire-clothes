@@ -7,7 +7,7 @@ import React from "react";
 import { FloatButton } from "antd";
 
 const handleInstaClick = () => {
-  const instagramLink = "https://www.instagram.com/direct/t/17845817354991430";
+  const instagramLink = "https://www.instagram.com/clout.attire";
   window.open(instagramLink, "_blank");
 };
 const handleWhatsappClick = () => {
