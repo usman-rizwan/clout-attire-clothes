@@ -1,2 +1,2 @@
 # clout-clothes
- For Live Preview : https://clout-attire-clothing.netlify.app/
+ For Live Preview : https://cloutattire.netlify.app/
