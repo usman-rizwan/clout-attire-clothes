@@ -37,14 +37,14 @@ export default function Gallery() {
             <img
               src={Product2}
               className="w-100 shadow-1-strong rounded mb-4"
-              alt="Boat on Calm Water"
+              alt="Clout-product"
             />
             </div>
             <div data-aos="zoom-out-up" className="bg-image hover-zoom" onClick={handleImageClick}>
             <img
               src={Product3}
               className="w-100 shadow-1-strong rounded mb-4"
-              alt="Wintry Mountain Landscape"
+              alt="Clout-product"
             />
           </div>
         </MDBCol>
@@ -54,14 +54,14 @@ export default function Gallery() {
             <img
               src={Product1}
               className="w-100 shadow-1-strong rounded mb-4"
-              alt="Mountains in the Clouds"
+              alt="Clout-product"
             />
             </div>
             <div data-aos="zoom-out-down" className="bg-image hover-zoom" onClick={handleImageClick}>
             <img
               src={Product5}
               className="w-100 shadow-1-strong rounded mb-4"
-              alt="Boat on Calm Water"
+              alt="Clout-product"
             />
           </div>
         </MDBCol>
@@ -71,14 +71,14 @@ export default function Gallery() {
             <img
               src={Product9}
               className="w-100 shadow-1-strong rounded mb-4"
-              alt="Waves at Sea"
+              alt="Clout-product"
             />
             </div>
             <div data-aos="zoom-out-up" className="bg-image hover-zoom" onClick={handleImageClick}>
             <img
               src={Product8}
               className="w-100 shadow-1-strong rounded mb-4"
-              alt="Yosemite National Park"
+              alt="Clout-product"
             />
           </div>
         </MDBCol>

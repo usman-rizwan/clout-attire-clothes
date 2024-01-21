@@ -2,7 +2,7 @@ import React from "react";
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { MDBContainer, MDBNavbar, MDBNavbarBrand } from "mdb-react-ui-kit";
-import LOGO from "../assets/images/logo-removebg-.png";
+import LOGO from "../assets/images/clout-white-logo.png";
 import './style.css'
 
 export default function Navbar() {
