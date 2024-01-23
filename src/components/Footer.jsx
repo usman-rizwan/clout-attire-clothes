@@ -28,7 +28,7 @@ export default function Footer() {
       </MDBContainer>
 
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-      © 2024 Clout Attire. All rights reserved | Designed & Developed by < a href='https://github.com/usman-rizwan'  className='text-white pointer fw-bold poppins'>Muhammad Usman </a> 
+      © 2024 Clout Attire. All rights reserved | Designed & Developed by < a href='https://github.com/usman-rizwan'  className='text-white pointer fw-bold poppins color-pink'>Muhammad Usman </a> 
       </div>
       
     </MDBFooter>

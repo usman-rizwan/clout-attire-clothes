@@ -44,6 +44,9 @@
 .pointer{
   cursor: pointer ;
 }
+.color-pink{
+  color: #b8b2fa !important;
+}
 
 a:hover {
   color: white;
